@@ -1,0 +1,46 @@
+@import "utils/utils";
+
+// ==========================================================================
+// vars
+// ==========================================================================
+
+@BASE_IMG : '../img';
+@BANNER_FORMAT : 'superLeaderBoard3';
+
+@banner_Width : 300px;
+@banner_Height : 250px;
+
+
+
+#FCB_adContainer{
+	width: @banner_Width;
+	height: @banner_Height;
+	background: #000000;
+
+	#FCB_canvas{
+		width: @banner_Width;
+		height: @banner_Height;
+		position: relative;
+		
+		#FCB_preloader{
+			width: 100%;
+			height: 100%;
+			top: 0;
+			right: 0;
+			position: absolute;
+			z-index: 99;
+			background: url('http://www.ajaxload.info/images/exemples/6.gif') center no-repeat #FFFFFF;
+		}
+
+		#FCB_action{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			z-index: 99;
+			top: 0;
+			right: 0;
+		}
+	}
+}
+
+//Your CSS

@@ -1,0 +1,23 @@
+{
+  "name": "banners",
+  "title": "Banners - HTML5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "FCB Brasil",
+  "license": "",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-uglify": "^0.8.1",
+    "grunt-contrib-watch": "^0.5.3",
+    "grunt-newer": "^0.7.0",
+    "jit-grunt": "^0.8.0",
+    "time-grunt": "^0.4.0"
+  }
+}
